@@ -35,6 +35,8 @@ public class MainActivity extends ActionBarActivity {
         response = (TextView) findViewById(R.id.response);
         API = "http://emeraldsiren.com/USERNAME/PASSWORD/glance";
         
+        //commenting in test
+        
         //call AsynTask to perform network operation on separate thread
      	new HttpAsyncTask().execute(API);
     }
